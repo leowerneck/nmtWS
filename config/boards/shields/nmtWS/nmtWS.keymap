@@ -1,29 +1,50 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+#define DEFAULT 0
+#define SYMBNAV 1
+#define NUMPADF 2
+
 / {
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
-// .--------------------------------------------------------------------------------------------------------.
-// |    1    |    2    |    3    |    4    |    5    |    |    6    |    7    |    8    |    9    |    0    |
-// |    Q    |    W    |    E    |    R    |    T    |    |    Y    |    U    |    I    |    O    |    P    |
-// |    A    |    S    |    D    |    F    |    G    |    |    H    |    J    |    K    |    L    |    '    |
-// |    Z    |    X    |    C    |    V    |    B    |    |    N    |    M    |    ,    |    .    |  SHIFT  |
-// |                   | LAYER 2 |   TAB   |   WIN   |    |  L ALT  |   CTRL  | LAYER 3 |                   |
-// |                             |  SPACE  |   ESC   |    |  BSPC   |  ENTER  |                             |
-// .--------------------------------------------------------------------------------------------------------.
             bindings = <
-    &kp N1   &kp N2   &kp N3    &kp N4    &kp N5     &kp N6    &kp N7    &kp N8    &kp N9    &kp N0
-    &kp Q    &kp W    &kp E     &kp R     &kp T      &kp Y     &kp U     &kp I     &kp O     &kp P
-    &kp A    &kp S    &kp D     &kp F     &kp G      &kp H     &kp J     &kp K     &kp L     &kp SINGLE_QUOTE 
-    &kp Z    &kp X    &kp C     &kp V     &kp B      &kp N     &kp M     &kp COMMA &kp DOT   &kp RSHIFT
-                      &kp LGUI  &kp TAB   &kp LGUI   &kp LALT  &kp LCTRL &kp LGUI
-                                &kp SPACE &kp ESC    &kp BSPC  &kp ENTER
+// .------------.------------.------------.------------.------------.------------.------------.------------.------------.------------.          
+// |   ROW L1   |   ROW L2   |   ROW L3   |   ROW L4   |   ROW L5   |   ROW R1   |   ROW R2   |   ROW R3   |   ROW R4   |   ROW R5   |
+// .------------.------------.------------.------------.------------.------------.------------.------------.------------.------------.          
+    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6       &kp N7       &kp N8       &kp N9       &kp N0
+    &kp Q        &kp W        &kp E        &kp R        &kp T        &kp Y        &kp U        &kp I        &kp O        &kp P
+    &kp A        &kp S        &kp D        &kp F        &kp G        &kp H        &kp J        &kp K        &kp L        &kp SINGLE_QUOTE 
+    &kp Z        &kp X        &kp C        &kp V        &kp B        &kp N        &kp M        &kp COMMA    &kp DOT      &kp RSHIFT
+                              &to SYMBNAV  &kp TAB      &kp LGUI     &kp LALT     &kp LCTRL    &to NUMPADF
+                                           &kp SPACE    &kp ESC      &kp BSPC     &kp ENTER
             >;
+        };
 
-            // sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+        symbnav_layer {
+// .------------.------------.------------.------------.------------.------------.------------.------------.------------.------------.          
+// |   ROW L1   |   ROW L2   |   ROW L3   |   ROW L4   |   ROW L5   |   ROW R1   |   ROW R2   |   ROW R3   |   ROW R4   |   ROW R5   |
+// .------------.------------.------------.------------.------------.------------.------------.------------.------------.------------.          
+    &none        &kp TILDE    &kp EQUAL    &kp LPAR     &none        &none        &kp RPAR     &kp PLUS     &kp GRAVE    &none
+    &none        &kp BSLH     &kp SEMI     &kp LBKT     &none        &none        &kp RBKT     &kp COLON    &kp PIPE     &none
+    &kp HOME     &kp END      &kp PGDN     &kp PGUP     &none        &none        &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT
+    &none        &kp FLSH     &kp MINUS    &kp LBRC     &none        &none        &kp RBRC     &kp UNDER    &kp QMARK    &none
+                              &to DEFAULT  &kp TAB      &kp LGUI     &kp LALT     &kp LCTRL    &to NUMPADF
+                                           &kp SPACE    &kp ESC      &kp BSPC     &kp ENTER
+        };
+
+        numpadf_layer {
+// .------------.------------.------------.------------.------------.------------.------------.------------.------------.------------.          
+// |   ROW L1   |   ROW L2   |   ROW L3   |   ROW L4   |   ROW L5   |   ROW R1   |   ROW R2   |   ROW R3   |   ROW R4   |   ROW R5   |
+// .------------.------------.------------.------------.------------.------------.------------.------------.------------.------------.          
+    &kp F1       &kp F2       &kp F3       &kp F4       &none        &none        &kp N7       &kp N8       &kp N9       &kp MINUS
+    &kp F5       &kp F6       &kp F7       &kp F8       &none        &none        &kp N4       &kp N5       &kp N6       &kp PLUS
+    &kp F9       &kp F10      &kp F11      &kp F12      &none        &none        &kp N1       &kp N2       &kp N3       &kp STAR
+    &none        &none        &none        &none        &none        &none        &none        &kp N0       &kp DOT      &kp FLSH
+                              &to DEFAULT  &kp TAB      &kp LGUI     &kp LALT     &kp LCTRL    &to SYMBNAV
+                                           &kp SPACE    &kp ESC      &kp BSPC     &kp ENTER
         };
     };
 };
