@@ -28,9 +28,9 @@
 // .------------.------------.------------.------------.------------.------------.------------.------------.------------.------------.          
 // |   ROW L1   |   ROW L2   |   ROW L3   |   ROW L4   |   ROW L5   |   ROW R1   |   ROW R2   |   ROW R3   |   ROW R4   |   ROW R5   |
 // .------------.------------.------------.------------.------------.------------.------------.------------.------------.------------.          
-    &none        &kp TILDE    &kp EQUAL    &kp LPAR     &none        &none        &kp RPAR     &kp PLUS     &kp GRAVE    &none
-    &none        &kp BSLH     &kp SEMI     &kp LBKT     &none        &none        &kp RBKT     &kp COLON    &kp PIPE     &none
-    &kp HOME     &kp END      &kp PGDN     &kp PGUP     &none        &none        &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT
+    &none        &none        &kp TILDE    &kp EQUAL    &kp LPAR     &kp RPAR     &kp PLUS     &kp GRAVE    &none        &none
+    &none        &none        &kp BSLH     &kp SEMI     &kp LBKT     &kp RBKT     &kp COLON    &kp PIPE     &none        &none
+    &none        &kp HOME     &kp PGUP     &kp PGDN     &kp END      &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &none
     &none        &kp FSLH     &kp MINUS    &kp LBRC     &none        &none        &kp RBRC     &kp UNDER    &kp QMARK    &none
                               &to DEFAULT  &kp TAB      &kp LGUI     &kp LALT     &kp LCTRL    &to NUMPADF
                                            &kp SPACE    &kp ESC      &kp BSPC     &kp ENTER
@@ -47,7 +47,7 @@
     &kp F9       &kp F10      &kp F11      &kp F12      &none        &none        &kp KP_N1    &kp KP_N2    &kp KP_N3    &kp KP_MULTIPLY
     &none        &none        &none        &none        &none        &none        &none        &kp KP_N0    &kp KP_DOT   &kp KP_DIVIDE
                               &to DEFAULT  &kp TAB      &kp LGUI     &kp LALT     &kp LCTRL    &to SYMBNAV
-                                           &kp SPACE    &kp ESC      &kp BSPC     &kp ENTER
+                                           &kp SPACE    &kp ESC      &kp BSPC     &kp KP_ENTER
             >;
         };
     };
