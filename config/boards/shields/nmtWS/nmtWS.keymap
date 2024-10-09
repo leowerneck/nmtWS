@@ -33,8 +33,8 @@
     &none        &none        &kp BSLH     &kp SEMI     &kp LBKT     &kp RBKT     &kp COLON    &kp PIPE     &none        &none
     &none        &kp HOME     &kp PGUP     &kp PGDN     &kp END      &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &none
     &none        &none        &kp FSLH     &kp MINUS    &kp LBRC     &kp RBRC     &kp UNDER    &kp QMARK    &none        &none
-                              &to DEFAULT  &kp TAB      &kp LGUI     &kp LALT     &kp LCTRL    &to NUMPADF
-                                           &kp SPACE    &kp ESC      &kp BSPC     &kp ENTER
+                              &to DEFAULT  &kp LGUI     &kp ESC      &kp BSPC     &kp LALT     &to NUMPADF
+                                           &kp TAB      &kp SPACE    &kp ENTER    &kp LCTRL
             >;
         };
 
@@ -47,8 +47,8 @@
     &kp F5       &kp F6       &kp F7       &kp F8       &none        &none        &kp KP_N4    &kp KP_N5    &kp KP_N6    &kp KP_PLUS
     &kp F9       &kp F10      &kp F11      &kp F12      &none        &none        &kp KP_N1    &kp KP_N2    &kp KP_N3    &kp KP_MULTIPLY
     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none        &none        &kp KP_N0    &kp KP_DOT   &kp KP_DIVIDE
-                              &to DEFAULT  &kp TAB      &kp LGUI     &kp LALT     &kp LCTRL    &to SYMBNAV
-                                           &kp SPACE    &kp ESC      &kp BSPC     &kp KP_ENTER
+                              &to DEFAULT  &kp LGUI     &kp ESC      &kp BSPC     &kp LALT     &to SYMBNAV
+                                           &kp TAB      &kp SPACE    &kp ENTER    &kp KP_ENTER
             >;
         };
     };
