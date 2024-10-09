@@ -19,8 +19,8 @@
     &kp Q        &kp W        &kp E        &kp R        &kp T        &kp Y        &kp U        &kp I        &kp O        &kp P
     &kp A        &kp S        &kp D        &kp F        &kp G        &kp H        &kp J        &kp K        &kp L        &kp SINGLE_QUOTE 
     &kp Z        &kp X        &kp C        &kp V        &kp B        &kp N        &kp M        &kp COMMA    &kp DOT      &kp RSHIFT
-                              &to SYMBNAV  &kp TAB      &kp LGUI     &kp LALT     &kp LCTRL    &to NUMPADF
-                                           &kp SPACE    &kp ESC      &kp BSPC     &kp ENTER
+                              &to SYMBNAV  &kp WIN      &kp ESC      &kp BSPC     &kp LALT     &to NUMPADF
+                                           &kp TAB      &kp SPACE    &kp ENTER    &kp LCTRL
             >;
         };
 
@@ -32,7 +32,7 @@
     &none        &none        &kp TILDE    &kp EQUAL    &kp LPAR     &kp RPAR     &kp PLUS     &kp GRAVE    &none        &none
     &none        &none        &kp BSLH     &kp SEMI     &kp LBKT     &kp RBKT     &kp COLON    &kp PIPE     &none        &none
     &none        &kp HOME     &kp PGUP     &kp PGDN     &kp END      &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &none
-    &none        &kp FSLH     &kp MINUS    &kp LBRC     &none        &none        &kp RBRC     &kp UNDER    &kp QMARK    &none
+    &none        &none        &kp FSLH     &kp MINUS    &kp LBRC     &kp RBRC     &kp UNDER    &kp QMARK    &none        &none
                               &to DEFAULT  &kp TAB      &kp LGUI     &kp LALT     &kp LCTRL    &to NUMPADF
                                            &kp SPACE    &kp ESC      &kp BSPC     &kp ENTER
             >;
