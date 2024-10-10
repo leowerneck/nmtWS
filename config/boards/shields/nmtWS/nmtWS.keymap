@@ -32,7 +32,7 @@
     &none        &none        &kp TILDE    &kp EQUAL    &kp LPAR     &kp RPAR     &kp PLUS     &kp GRAVE    &none        &none
     &none        &none        &kp BSLH     &kp SEMI     &kp LBKT     &kp RBKT     &kp COLON    &kp PIPE     &none        &none
     &none        &kp HOME     &kp PGUP     &kp PGDN     &kp END      &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &none
-    &LSHIFT      &none        &kp FSLH     &kp MINUS    &kp LBRC     &kp RBRC     &kp UNDER    &kp QMARK    &none        &RSHIFT
+    &kp LSHIFT   &none        &kp FSLH     &kp MINUS    &kp LBRC     &kp RBRC     &kp UNDER    &kp QMARK    &none        &kp RSHIFT
                               &to DEFAULT  &kp LGUI     &kp LCTRL    &kp TAB      &kp LALT     &to NUMPADF
                                            &kp ESC      &kp SPACE    &kp ENTER    &kp BSPC
             >;
