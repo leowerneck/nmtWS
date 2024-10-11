@@ -43,10 +43,10 @@
 // .------------.------------.------------.------------.------------.------------.------------.------------.------------.------------.          
 // |   ROW L1   |   ROW L2   |   ROW L3   |   ROW L4   |   ROW L5   |   ROW R1   |   ROW R2   |   ROW R3   |   ROW R4   |   ROW R5   |
 // .------------.------------.------------.------------.------------.------------.------------.------------.------------.------------.          
-    &kp F1       &kp F2       &kp F3       &kp F4       &bt BT_CLR   &none        &kp KP_N7    &kp KP_N8    &kp KP_N9    &kp KP_MINUS
-    &kp F5       &kp F6       &kp F7       &kp F8       &none        &none        &kp KP_N4    &kp KP_N5    &kp KP_N6    &kp KP_PLUS
-    &kp F9       &kp F10      &kp F11      &kp F12      &none        &none        &kp KP_N1    &kp KP_N2    &kp KP_N3    &kp KP_MULTIPLY
-    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none        &none        &kp KP_N0    &kp KP_DOT   &kp KP_DIVIDE
+    &kp F1       &kp F2       &kp F3       &kp F4       &bt BT_CLR   &none        &kp N7       &kp N8       &kp N9       &kp MINUS
+    &kp F5       &kp F6       &kp F7       &kp F8       &none        &none        &kp N4       &kp N5       &kp N6       &kp PLUS
+    &kp F9       &kp F10      &kp F11      &kp F12      &none        &none        &kp N1       &kp N2       &kp N3       &kp STAR
+    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none        &none        &kp N0       &kp DOT      &kp FSLH
                               &to DEFAULT  &kp LGUI     &kp LCTRL    &kp TAB      &kp LALT     &to SYMBNAV
                                            &kp ESC      &kp SPACE    &kp KP_ENTER &kp BSPC
             >;
