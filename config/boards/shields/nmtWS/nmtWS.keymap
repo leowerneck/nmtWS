@@ -29,7 +29,7 @@
 // .------------.------------.------------.------------.------------.------------.------------.------------.------------.------------.          
 // |   ROW L1   |   ROW L2   |   ROW L3   |   ROW L4   |   ROW L5   |   ROW R1   |   ROW R2   |   ROW R3   |   ROW R4   |   ROW R5   |
 // .------------.------------.------------.------------.------------.------------.------------.------------.------------.------------.          
-    &none        &none        &kp TILDE    &kp EQUAL    &kp LPAR     &kp RPAR     &kp PLUS     &kp GRAVE    &none        &none
+    &none        &none        &kp TILDE    &kp EQUAL    &kp LPAR     &kp RPAR     &kp PLUS     &kp GRAVE    &none        &kp PSCRN
     &none        &none        &kp BSLH     &kp SEMI     &kp LBKT     &kp RBKT     &kp COLON    &kp PIPE     &none        &none
     &none        &kp HOME     &kp PGUP     &kp PGDN     &kp END      &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &none
     &kp LSHIFT   &none        &kp FSLH     &kp MINUS    &kp LBRC     &kp RBRC     &kp UNDER    &kp QMARK    &none        &kp RSHIFT
@@ -40,15 +40,15 @@
 
         numpadf_layer {
             bindings = <
-// .------------.------------.------------.------------.------------.------------.------------.------------.------------.------------.          
-// |   ROW L1   |   ROW L2   |   ROW L3   |   ROW L4   |   ROW L5   |   ROW R1   |   ROW R2   |   ROW R3   |   ROW R4   |   ROW R5   |
-// .------------.------------.------------.------------.------------.------------.------------.------------.------------.------------.          
-    &kp F1       &kp F2       &kp F3       &kp F4       &bt BT_CLR   &none        &kp N7       &kp N8       &kp N9       &kp MINUS
-    &kp F5       &kp F6       &kp F7       &kp F8       &none        &none        &kp N4       &kp N5       &kp N6       &kp PLUS
-    &kp F9       &kp F10      &kp F11      &kp F12      &none        &none        &kp N1       &kp N2       &kp N3       &kp STAR
-    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none        &none        &kp N0       &kp DOT      &kp FSLH
-                              &to DEFAULT  &kp LGUI     &kp LCTRL    &kp TAB      &kp LALT     &to SYMBNAV
-                                           &kp ESC      &kp SPACE    &kp KP_ENTER &kp BSPC
+// .------------.------------.------------.------------.--------------.------------.------------.------------.------------.------------.          
+// |   ROW L1   |   ROW L2   |   ROW L3   |   ROW L4   |    ROW L5    |   ROW R1   |   ROW R2   |   ROW R3   |   ROW R4   |   ROW R5   |
+// .------------.------------.------------.------------.--------------.------------.------------.------------.------------.------------.          
+    &kp F1       &kp F2       &kp F3       &kp F4       &bt BT_CLR     &none        &kp N7       &kp N8       &kp N9       &kp MINUS
+    &kp F5       &kp F6       &kp F7       &kp F8       &bt BT_CLR_ALL &none        &kp N4       &kp N5       &kp N6       &kp PLUS
+    &kp F9       &kp F10      &kp F11      &kp F12      &none          &none        &kp N1       &kp N2       &kp N3       &kp STAR
+    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &none        &none        &kp N0       &kp DOT      &kp FSLH
+                              &to DEFAULT  &kp LGUI     &kp LCTRL      &kp TAB      &kp LALT     &to SYMBNAV
+                                           &kp ESC      &kp SPACE      &kp KP_ENTER &kp BSPC
             >;
         };
     };
