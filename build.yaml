@@ -22,3 +22,5 @@ include:
     shield: nmtWS_left
   - board: nice_nano_v2
     shield: nmtWS_right
+  - board: nice_nano_v2
+    shield: settings_reset
