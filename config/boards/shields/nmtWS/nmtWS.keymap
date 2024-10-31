@@ -29,7 +29,7 @@
 // .------------.------------.------------.------------.------------.------------.------------.------------.------------.------------.          
 // |   ROW L1   |   ROW L2   |   ROW L3   |   ROW L4   |   ROW L5   |   ROW R1   |   ROW R2   |   ROW R3   |   ROW R4   |   ROW R5   |
 // .------------.------------.------------.------------.------------.------------.------------.------------.------------.------------.          
-    &kp GRAVE    &none        &none        &none        &none        &none        &none        &kp MINUS    &kp EQUAL    &kp PSCRN
+    &kp GRAVE    &none        &none        &none        &kp PSCRN    &none        &none        &kp MINUS    &kp EQUAL    &none
     &none        &none        &none        &none        &none        &none        &kp SEMI     &kp LBKT     &kp RBKT     &kp BSLH
     &none        &kp HOME     &kp PGUP     &kp PGDN     &kp END      &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &kp FSLH
     &kp LSHIFT   &none        &none        &none        &none        &none        &none        &kp COMMA    &kp DOT      &kp RSHIFT
